@@ -11,6 +11,7 @@ For example:
 - `current_version=v1.2.3`, `level=major` -> `new_version=v2.0.0`
 - `current_version=1.2.3`, `level=major` -> `new_version=2.0.0`
 - `current_version=v1.2.3`, `level=minor` -> `new_version=v1.3.0`
+- `current_version=v1.2.3`, `level=patch` -> `new_version=v1.2.4`
 
 It would be more useful to use this with other GitHub Actions' outputs.
 
